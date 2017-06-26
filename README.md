@@ -6,10 +6,10 @@ The input data set represents data collected from the accelerometers & gyrometer
 
 1. Installs & loads the required packages (i.e data.table & reshape2)
 2. Downloads & unzips raw datasets
-3. Loads Activity labels & features
+3. Loads activity labels & features
 4. Loads feature vectors, activity & Subject details for both training & testing data
 5. Incorporates descriptive activity names for both the data sets
-6. Merges Activity & Subject details with respective data sets
+6. Merges activity & subject details with respective data sets
 7. Merges training & testing data set to form merged dataset
 8. Extracts only measurements on mean and standard deviation from the merged data set
 9. Creates a second, independent tidy data set out of the merged dat set with the average of each variable for each activity and each    subject.
