@@ -59,5 +59,5 @@ merged_data<-merged_data[ ,extract_features]
 melt_data = melt(merged_data, id = c("Subject","Activity_number","Activity_description"))
 tidy_data = dcast(melt_data, Subject + Activity_description ~ variable , mean)
 
-write.table(tidy_data,"tidy_data.txt")
+write.table(tidy_data,"tidy_data.txt",row.names = FALSE, quote = FALSE)
 
