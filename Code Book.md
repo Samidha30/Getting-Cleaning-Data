@@ -64,12 +64,12 @@ std()
 * Subject - The ID of the test subject. Value varies from 1 to 30
 * Activity_description - The type of activity performed when the corresponding measurements were taken. The activities are:
 		    
-	1 WALKING
-	2 WALKING_UPSTAIRS
-	3 WALKING_DOWNSTAIRS
-	4 SITTING
-	5 STANDING
-	6 LAYING
+		1 WALKING
+		2 WALKING_UPSTAIRS
+		3 WALKING_DOWNSTAIRS
+		4 SITTING
+		5 STANDING
+		6 LAYING
 
 ## Measurements
 * tBodyAccMeanX
