@@ -5,14 +5,14 @@ This is the course project for getting & cleaning data course on coursera. The p
 The input data set represents data collected from the accelerometers & gyrometers from the Samsung Galaxy S smartphone. The script performs the following functions:
 
 1. Installs & loads the required packages (i.e data.table & reshape2)
-2. Download & unzip raw datasets
-3. Load Activity labels & features
+2. Downloads & unzips raw datasets
+3. Loads Activity labels & features
 4. Loads feature vectors, activity & Subject details for both training & testing data
-5. Uses descriptive activity names to name the activities for both the data sets
+5. Incorporates descriptive activity names for both the data sets
 6. Merges Activity & Subject details with respective data sets
-6. Merges training & testing data set to form merged dataset
-7. Extracts only measurements on mean and standard deviation from the merged data set
-8. Creates a second, independent tidy data set out of the merged dat set with the average of each variable for each activity and each    subject.
+7. Merges training & testing data set to form merged dataset
+8. Extracts only measurements on mean and standard deviation from the merged data set
+9. Creates a second, independent tidy data set out of the merged dat set with the average of each variable for each activity and each    subject.
 
 ## How to use run.analysis
 * Set the working directory to where you would like to download all the required data sets (use setwd())
